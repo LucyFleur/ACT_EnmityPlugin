@@ -23,17 +23,18 @@ namespace Tamagawa.EnmityPlugin
         internal object CombatantsLock => new object();
 
         private const string charmapSignature32 = "81FEFFFF0000743581FE58010000732D8B3CB5";
-        private const string charmapSignature64 = "488b03488bcbff90a0000000888391000000488d0d";
+        private const string charmapSignature64 = "488b420848c1e8033da701000077248bc0488d0d";
         private const string targetSignature32  = "750E85D2750AB9";
-        private const string targetSignature64  = "1E017520483935";
+        private const string targetSignature64  = "41bc000000e041bd01000000493bc47555488d0d";
         private const string enmitySignature32  = "E8??E33000B9??A4????E8????3300B9";
         private const string enmitySignature64  = "0CA43C00488D0D????3C01E8????3F00488D0D";
         private const int charmapOffset32 = 0;
-        private const int charmapOffset64 = 16;
-        private const int targetOffset32  = 88;
-        private const int targetOffset64  = 0;
-        private const int enmityOffset32  = 0x4A58;
-        private const int enmityOffset64  = 0x4A38;
+        private const int charmapOffset64 = 0;
+        private const int targetOffset32  = 0;
+        private const int targetOffset64  = 128;
+        private const int enmityOffset32 = 0x01BFB8F0;
+        private const int enmityOffset64 = 0x01BFB8F0;
+
 
         private EnmityOverlay _overlay;
         private Process _process;

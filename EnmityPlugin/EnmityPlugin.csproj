@@ -74,18 +74,15 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Advanced Combat Tracker, Version=3.1.5.246, Culture=neutral, PublicKeyToken=a946b61e93d97868, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Advanced Combat Tracker">
       <HintPath>..\Thirdparty\ACT\Advanced Combat Tracker.exe</HintPath>
-      <Private>False</Private>
     </Reference>
-    <Reference Include="HtmlRenderer">
+    <Reference Include="HtmlRenderer, Version=1.0.1.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Thirdparty\OverlayPlugin\HtmlRenderer.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="OverlayPlugin">
       <HintPath>..\Thirdparty\OverlayPlugin\OverlayPlugin.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="OverlayPlugin.Common">
       <HintPath>..\Thirdparty\OverlayPlugin\OverlayPlugin.Common.dll</HintPath>
@@ -93,7 +90,6 @@
     </Reference>
     <Reference Include="OverlayPlugin.Core">
       <HintPath>..\Thirdparty\OverlayPlugin\OverlayPlugin.Core.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -108,9 +104,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Xilium.CefGlue">
+    <Reference Include="Xilium.CefGlue, Version=3.2272.2035.0, Culture=neutral, PublicKeyToken=6235298024de30d5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Thirdparty\Xilium.CefGlue\Xilium.CefGlue.dll</HintPath>
-      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
